@@ -1,0 +1,73 @@
+body {
+    background-image: url(../images/gravel.png)
+}
+
+#profpic {
+    width: 30%;
+    margin-left: 5%;    
+    float: left;
+    margin-right: 8%;
+
+}
+
+#name {
+    text-align: center;
+    color: darkblue;
+}
+
+h2, p, h6, h5, .btn, label {
+    font-family: 'Courgette', cursive !important;
+
+}
+
+h6 {
+    text-align: center;
+}
+
+p {
+    padding-left: 5%;
+    margin-right: 5%;
+    line-height: 2;
+}
+
+.navbar {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Courgette', cursive;
+    opacity: 0.7;
+
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.jumbotron {
+    margin-top: 8%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+a:hover {
+    background-color: yellow;
+    padding: left 10px;
+    padding-right:10px;
+    
+}
+
+.card {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 10%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.footer {
+    background-color: lightgray;
+    opacity: 0.7;
+}
