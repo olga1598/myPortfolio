@@ -17,7 +17,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Firebase JavaScript Link -->
@@ -25,43 +25,61 @@
 </head>
 
 <body>
-
+<main>
     <!--<div class="bg">-->
-
+    
         <!-- Container for the Navbar -->
-    <div class="container"> 
-        <!--<div class="row">-->
-        <div class="col-lg">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top">    
+            <div class="container"> 
+                <a class="nav-link" href="index.html" id="name">Olga Repnitsyna</a>
+
                 <!--<a style="text-decoration:nome" href="index.html">-->
-                <h1 id="name">Olga Repnitsyna</h1>
+                <!-- <h1 id="name">Olga Repnitsyna</h1> -->
                     
-                <a class="navbar-brand" href="index.html">Home</a>
+                <!-- <a class="navbar-brand" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                <div class="form-inline">
+                    <!-- <ul class="navbar-nav mr-auto"> -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
-                        </li>                            
-                        <li class="nav-item active">
+                        <!-- </li>                             -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
+                        <!-- </li> -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="contact.html">Contacts <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+                        <!-- </li> -->
+                    <!-- </ul> -->
                 </div>
+            </div>
             </nav>
-        </div>
     
  <!-- </div>Closing NAV contents -->
-        <div class="container">
+
+ <div class="container" id="contact">
+     <div class="jumbotron">
+        <h2>Contact</h2>
+        <hr />
+        <div class="form-inline">
+
+        <span class="contacts">
+          <a href="https://github.com/olga1598" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+          <a href="https://www.linkedin.com/in/olga-repnitsyna-9678b3175/" target="_blank"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+          <a href="mailto:olga.repnitsyna@gmail.com"><i class="far fa-envelope"></i>Email</a>
+          <a href="" target="_blank"><i class="far fa-file-alt"></i>Download Resume</a>
+        </span>
+        </div>
+      </div>
+  </div>
+
+
+        <!-- <div class="container">
             <div class="jumbotron">
-                    <form>
+                    <form action="mailto:olga.repnitsyna@gmail.com" method="post" enctype="text/plain">
                             <h2>Contact</h2>
                             <hr />
             
@@ -88,7 +106,7 @@
                         </form>
                          
             </div>
-        </div>
+        </div> -->
        
         <br>
         <!-- Footer -->
@@ -98,7 +116,7 @@
 
             </div>
         </div>
-    </div>
+    </main>
 
 
     <script src="https://code.jquery.com/jquery.js"></script>

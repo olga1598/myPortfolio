@@ -1,6 +1,15 @@
 body {
-    background-image: url(../images/gravel.png)
+    background-blend-mode: darken, luminosity;
+    background-image: url(../images/gravel.png);
+    background-color: #ff8f56 !important;
+    font-family: 'Poiret One', cursive;
+    margin: 0;
 }
+
+#name {
+    font-size: 35px;
+}
+
 
 #profpic {
     width: 30%;
@@ -15,9 +24,21 @@ body {
     color: darkblue;
 }
 
-h2, p, h6, h5, .btn, label {
-    font-family: 'Courgette', cursive !important;
+a {
+    color: #ff5959 !important;
+    text-decoration: none;
+}
 
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ff5959 !important;
+    
+}
+
+h2 {
+    font-family: 'Chivo', sans-serif;
+    color: #984a59 !important;
+    font-weight: bold;
 }
 
 h6 {
@@ -30,10 +51,27 @@ p {
     line-height: 2;
 }
 
+hr {
+    width: 150px;
+    margin-left: 0;
+    height: 5px;
+    background-color: #984a59;
+    border: 0;
+    margin-bottom: 30px;
+  }
+  
+
+/* #head {
+    position: fixed;
+    display: inline-block;
+} */
+
 .navbar {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
-    font-family: 'Courgette', cursive;
-    opacity: 0.7;
+    /* font-family: 'Courgette', cursive; */
+    /* opacity: 0.7; */
+    background-color: #984a59 !important;
+   
 
 }
 
@@ -42,24 +80,39 @@ p {
 }
 
 .jumbotron {
-    margin-top: 8%;
-    width: 80%;
+    margin-top: 10%;
+    /* width: 80%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+#skills {
+    background: var(--purple-color);
+  }
+  
+  #skills td,
+  #skills th {
+    padding-left: 50px;
+  }
+  
+  tr {
+    border: none;
+  }
+    
+
 a:hover {
-    background-color: yellow;
+    background-color: #ff8f56;
     padding: left 10px;
     padding-right:10px;
     
 }
 
 .card {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
     margin-right: 10%;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
@@ -68,6 +121,35 @@ a:hover {
 }
 
 .footer {
-    background-color: lightgray;
-    opacity: 0.7;
+    background-color: #984a59 !important;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+     
 }
+
+/* Contacts */
+  .contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .contacts a {
+    font-size: 1.6em;
+    margin: 16px;
+    color: #984a59 !important;
+
+  }
+  
+  .contacts i {
+    font-size: 1.6em;
+    margin: 10px;
+  }
+  

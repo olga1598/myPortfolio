@@ -17,9 +17,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chivo|Cinzel+Decorative|Poiret+One&display=swap" rel="stylesheet">   
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" -->
+        <!-- integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
     <!-- Firebase JavaScript Link -->
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 </head>
@@ -29,34 +29,38 @@
     <!--<div class="bg">-->
 
         <!-- Container for the Navbar -->
-    <div class="container"> 
         <!--<div class="row">-->
-        <div class="col-lg">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <nav class="navbar fixed-top">    
+                <div class="container"> 
+
                 <!--<a style="text-decoration:nome" href="index.html">-->
-                <h1 id="name">Olga Repnitsyna</h1>
+                <a class="nav-link" href="index.html" id="name">Olga Repnitsyna</a>
+
+                <!-- <h1 id="name"href="index.html">Olga Repnitsyna</h1> -->
                     
-                <a class="navbar-brand" href="index.html">Home</a>
+                <!-- <a class="navbar-brand" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                <div class="form-inline">
+                    <!-- <ul class="navbar-nav mr-auto"> -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="index.html">About me <span class="sr-only">(current)</span></a>
-                        </li>                            
-                        <li class="nav-item active">
+                        <!-- </li>                             -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
+                        <!-- </li> -->
+                        <!-- <li class="nav-item active"> -->
                             <a class="nav-link" href="contact.html">Contacts <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
+                        <!-- </li> -->
+                    <!-- </ul> -->
                 </div>
+            </div>
             </nav>
-        </div>
+        
     
  <!-- </div>Closing NAV contents -->
         <div class="container">
@@ -73,9 +77,97 @@
                         <p>Hi, my name is Olga Repnitsyna. I'm staying home mom and a wife of three the best men in the whole world (two of them are still little monsters for now;)). So this is my full time job to be a personal chef, a housekeeper, a personal driver, an animator and a techer. So i'm thinking it's not enough and i need to try something absolutely new for myself, something that i can create, experiment and see the results right away. So here i am, on my new path - becoming the web-developer after geting my masters degree 16 years ago in management, then being a great watress for 8 years and after for another 8 years being a housewife and a young mom. Just give me 6 month to see how it's gonna go:)))</p>
                     </div>
                 </div>
+            </div>
+       </div>
+    <section id="skills">
+       <div class="container">
+            <div class="jumbotron">
+                <h2>Skills</h2>
+                <hr />
+                <table>
+                    <thead>
+                        <tr>
+                        <th scope="col">Front End</th>
+                        <th scope="col">Back End</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML & CSS</td>
+                            <td>Node.js</td>
+                        </tr>
+                        <tr>
+                            <td>Javascript</td>
+                            <td>Express.js</td>
+                        </tr>
+                        <tr>
+                            <td>jQuery</td>
+                            <td>MongoDB</td>
+                        </tr>
+                        <tr>
+                            <td>React.js</td>
+                            <td>MySQL</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>Sequelize</td>
+                        </tr>
+                        <!-- <tr>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        </tr> -->  
+                    </tbody>
+                </table>
+            </div>
         </div>
-       
+    </section>
         <br>
+        <!-- <div class="row" id="skills-container">
+                <div class="col-md-12">
+                    <table cellspacing="10" class="skills">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><i class="fab fa-html5"></i></td>
+                                        <td>HTML</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-css3-alt"></i></td>
+                                        <td>CSS</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><i class="fab fa-bootstrap"></i></td>
+                                        <td>Bootstrap</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-js"></i></td>
+                                        <td>Javascript</td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><i class="fab fa-node-js"></i></td>
+                                        <td>Node JS</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fab fa-react"></i></td>
+                                        <td>React JS</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+    
+                </div>
+            </div>
+ -->
         <!-- Footer -->
         <div class="footer">
             <div class="card-header">
@@ -83,8 +175,7 @@
 
             </div>
         </div>
-    </div>
-
+    
 
     <script src="https://code.jquery.com/jquery.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
